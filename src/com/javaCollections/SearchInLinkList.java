@@ -28,6 +28,15 @@ public class SearchInLinkList {
 			   System.out.println("found at "+count);
 
 	         }
+		  
+		  while(itr.()){  
+			  count++;
+		   if(itr.next()==element)
+			   
+			   System.out.println("found at "+count);
+
+	         }
+		  
 
 	}
 
