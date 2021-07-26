@@ -29,7 +29,7 @@ public class SearchInLinkList {
 
 	         }
 		  
-		  while(itr.()){  
+		  while(itr.hasNext()){  
 			  count++;
 		   if(itr.next()==element)
 			   
