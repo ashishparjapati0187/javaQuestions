@@ -1,0 +1,61 @@
+Problem statement:
+Design a cricket scorecard for an inning (and not full match) that will show the score for a
+team along with the score of each player. You will be given the number of players the team,
+the number of overs and their batting order as input. Then, we can input overs ball by ball
+with the runs scored on that ball or a wicket (keeping it simple by not including wide, no
+balls, boundaries and sixes)
+You are expected to print individual scores for all the players from the batting side at the end
+of every over. You also need to print the total score, total wickets. Essentially, you need to
+keep a track of all the players, strike changes (at the end of the over or after taking singles or
+3s) and maintain their scores.
+
+Evaluation criteria:
+Apart from a functioning solution, you are expected to cover edge cases and input
+validations. The code should be modular and easy to extend. As they say, code is written
+once and read many times; your code should be clean and easy to read and understand.
+Object oriented code is desired.
+
+Sample program output:
+No. of players in the team: 5
+No. of overs: 2
+Batting Order for the team:
+P1
+P2
+P3
+P4
+P5
+
+Over 1:
+1
+1
+1
+1
+1
+2
+Scorecard for Team 1:
+Player Name Score
+P1* 3
+P2* 4
+P3 0
+P4 0
+P5 0
+Total: 7/0
+Overs: 1
+Over 2:
+w
+1
+1
+1
+1
+2
+Scorecard for Team 1:
+Player Name Score
+P1 3
+P2* 6
+P3* 4
+P4 0
+P5 0
+Total: 13/1
+Overs: 2
+Inning ended [runs/wickets/overs]
+Final score 13/1/2
